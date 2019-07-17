@@ -1,12 +1,10 @@
 [
-  {
-    "id_product": 123,
-    "product_name": "Ноутбук",
-    "price": 45600
-  },
-  {
-    "id_product": 456,
-    "product_name": "Мышка",
-    "price": 1000
-  }
+  {"id_product": 1, "product_name": "Ноутбук", "price": 19999, "img": "img/nb.jpg"},
+  {"id_product": 2, "product_name": "Мышь", "price": 1499, "img": "img/ms.jpg"},
+  {"id_product": 3, "product_name": "Клавиатура", "price": 4999, "img": "img/kb.jpg"},
+  {"id_product": 4, "product_name": "Гаймпад", "price": 4499, "img": "img/gp.jpg"},
+  {"id_product": 5, "product_name": "Жесткий диск", "price": 2999, "img": "img/hhd.jpg"},
+  {"id_product": 6, "product_name": "Флэшка", "price": 999, "img": "img/usb.jpg"},
+  {"id_product": 7, "product_name": "Камера", "price": 1999, "img": "img/cam.jpg"},
+  {"id_product": 8, "product_name": "Гарнитура", "price": 499, "img": "img/gar.jpg"}
 ]

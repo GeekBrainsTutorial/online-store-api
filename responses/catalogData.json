@@ -1,12 +1,31 @@
-[
-  {
-    "id_product": 123,
-    "product_name": "Ноутбук",
-    "price": 45600
-  },
-  {
-    "id_product": 456,
-    "product_name": "Мышка",
-    "price": 1000
-  }
+[{
+        "id": 1,
+        "title": "Notebook",
+        "price": 45600,
+        "image": "https://placehold.it/200x150"
+    },
+    {
+        "id": 2,
+        "title": "Display",
+        "price": 1000,
+        "image": "https://placehold.it/200x150"
+    },
+    {
+        "id": 3,
+        "title": "Keyboard",
+        "price": 200,
+        "image": "https://placehold.it/200x150"
+    },
+    {
+        "id": 4,
+        "title": "Mouse",
+        "price": 450,
+        "image": "https://placehold.it/200x150"
+    },
+    {
+        "id": 5,
+        "title": "Phones",
+        "price": 23000,
+        "image": "https://placehold.it/200x150"
+    }
 ]

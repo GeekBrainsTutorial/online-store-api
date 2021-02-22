@@ -22,5 +22,13 @@ const render = (products) => {
     document.querySelector('.products').innerHTML = products.map(item => renderProduct(item.title, item.id, item.price)).join('');
 };
 
+let sum= () =>{
+    let sum = 0;
+    
+    for(let products of data){
+        sum +=products.price
+    }
+    return sum;
+ }
 render(data);
 console.log(data)

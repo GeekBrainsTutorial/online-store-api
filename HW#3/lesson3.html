@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="data"></div>
+<button class="ajax-get">Async get data</button>
+
+    <script>
+
+        // let userJson = '{ "name": "John", "age": 25, "isAdmin": true }';
+        //
+        // // console.log(userJson);
+        //
+        // let user = JSON.parse(userJson);
+        //
+        // // console.log(user.isAdmin);
+        //
+        // user.date = '2021-02-18';
+        //
+        // user.address = {
+        //     city: 'Saint Petersburg',
+        //     postalCode: 199999
+        // };
+        //
+        // // console.log(user);
+        //
+        // let jsonUser = JSON.stringify(user, ['address', 'city', 'postalCode', 'date'], 2);
+        //
+        // console.log(jsonUser);
+        //
+        //
+        // let user2 = JSON.parse(jsonUser, (key, value) => {
+        //     console.log(key, value);
+        //     if (key === 'date') {
+        //         value = new Date(value);
+        //     }
+        //
+        //     return value;
+        // });
+        //
+        // console.log(user2);
+
+
+
+        // Async
+
+        // let num = (a, cb) => {
+        //     setTimeout(() => {
+        //         const b = a + 5;
+        //         cb(b)
+        //     }, 2000);
+        // };
+
+        // num(10, (x) => {
+        //     num(x, () => {
+        //         num(x, () => {
+        //             num(x, () => {
+        //
+        //             })
+        //         })
+        //     })
+        // });
+
+
+        let num = (a) => {
+            return new Promise((resolve, reject) => {
+                // setTimeout(() => {
+                //     if (a) {
+                //         const b = a + 5;
+                        throw new Error('Error');
+                        // resolve(b);
+                        // return;
+                    // }
+
+                    // reject('Error');
+                // }, 2000);
+            });
+        };
+
+        // num(10)
+        //     .then((x) => num(x))
+        //     .then((x) => {
+        //         console.log(x);
+        //     })
+        //     .catch((err) => console.error(err));
+
+        // async function someFunc() {
+        //
+        // }
+
+        // async/await
+        const handler = async () => {
+            try {
+                await num(10);
+            } catch (e) {
+                // console.log(err);
+                console.log(e);
+            }
+
+            console.log('some string');
+
+            // console.log(a);
+            // let b = await num(a);
+            // console.log(b);
+        };
+
+        handler();
+            // .then(() => console.log('end'));
+
+
+
+        // requests
+
+
+
+        window.onload = () => {
+            document.querySelector('.ajax-get').addEventListener('click', () => {
+               // es5 (XHR)
+
+                // let xhr = new XMLHttpRequest();
+                //
+                // xhr.open('GET', 'tel.json', true);
+                //
+                // xhr.onreadystatechange = () => {
+                //     console.log(xhr.readyState);
+                //
+                //     // 0 - 4
+                //     if (xhr.readyState !== 4) {
+                //         return;
+                //     }
+                //
+                //     if (xhr.status !== 200) {
+                //         console.log(`${xhr.status} ${xhr.statusText}`);
+                //         return;
+                //     }
+                //
+                //     let result = JSON.parse(xhr.responseText);
+                //     document.querySelector('.data').textContent = `User: ${result.name} (${result.tel})`;
+                // };
+                //
+                // xhr.send();
+
+
+                //es6 (fetch)
+
+                // fetch('tel.json')
+                //     .then((result) => {
+                //         return result.json();
+                //     })
+                //     .then((data) => {
+                //         document.querySelector('.data').textContent = `User: ${data.name} (${data.tel})`;
+                //     })
+            });
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>

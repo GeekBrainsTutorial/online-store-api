@@ -1,12 +1,15 @@
 [
-  {
-    "id_product": 123,
-    "product_name": "Ноутбук",
-    "price": 45600
-  },
-  {
-    "id_product": 456,
-    "product_name": "Мышка",
-    "price": 1000
-  }
+
+    { id: 1, title: 'Notebook MSI', price: 20000, imgSrc: "img/1.jpg" },
+    { id: 2, title: 'Mouse', price: 1500 },
+    { id: 3, title: 'Keyboard', price: 5000, imgSrc: 'img/3.jpg' },
+    { id: 4, title: 'Gamepad', price: 4200 },
+    { id: 5, title: 'Notebook Asus', price: 25000, imgSrc: "img/1.jpg" },
+    { id: 6, title: 'Mouse', price: 500 },
+    { id: 7, title: 'Keyboard', price: 9000, imgSrc: 'img/3.jpg' },
+    { id: 8, title: 'Gamepad', price: 4500 },
+    { id: 9, title: 'Notebook IBM', price: 80000, imgSrc: "img/1.jpg" },
+    { id: 10, title: 'Mouse MS', price: 3500 },
+    { id: 11, title: 'Keyboard', price: 2000, imgSrc: 'img/3.jpg' },
+    { id: 12, title: 'Gamepad', price: 4700 },
 ]

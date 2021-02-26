@@ -11,5 +11,5 @@
     { id: 9, title: 'Notebook IBM', price: 80000, imgSrc: "img/1.jpg" },
     { id: 10, title: 'Mouse MS', price: 3500 },
     { id: 11, title: 'Keyboard', price: 2000, imgSrc: 'img/3.jpg' },
-    { id: 12, title: 'Gamepad', price: 4700 },
+    { id: 12, title: 'Gamepad', price: 4700 }
 ]

@@ -1,0 +1,13 @@
+.text{
+    border-bottom: 4px solid black;
+}
+.error-msg{
+    color: red;
+    margin: 10px 0;
+}
+.valid{
+    border: 2px solid green;
+}
+.invalid{
+    border: 2px solid red;
+}

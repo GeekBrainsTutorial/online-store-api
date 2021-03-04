@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="#" id="hamburger-form">
+    <fieldset id="hamburger-fieldset">
+        <h3 id="hamburger-top">Составь свой бургер.</h3>
+        <fieldset class="hamburger-fieldset-inside">
+            <h4>Выберите размер бургера:</h4>
+            <input type="radio" name="size" id="bigburger" value="big" class="hamburger-input" checked>
+            <label for="bigburger">Большой (100 рублей, 40 калорий)</label><br>
+            <input type="radio" name="size" id="smallburger" value="small" class="hamburger-input">
+            <label for="smallburger">Малый (50 рублей, 20 калорий)</label>
+        </fieldset>
+
+        <fieldset class="hamburger-fieldset-inside">
+            <h4>Выберите начинку бургера:</h4>
+            <input type="radio" name="add" id="cheese" value="cheese" class="hamburger-input" checked>
+            <label for="cheese">Сыр (10 рублей, 20 калорий)</label><br>
+            <input type="radio" name="add" id="salad" value="salad" class="hamburger-input">
+            <label for="salad">Салат (20 рублей, 5 калорий)</label><br>
+            <input type="radio" name="add" id="potato" value="potato" class="hamburger-input">
+            <label for="potato">Картофель (15 рублей, 10 калорий)</label><br>
+        </fieldset>
+
+        <fieldset class="hamburger-fieldset-inside">
+            <h4>Выберите доп. опцию:</h4>
+            <input type="checkbox" checked name="topings" id="seasoning" value="spices" class="hamburger-input">
+            <label for="seasoning">Посыпать приправой (15 рублей, 0 калорий)</label><br>
+            <input type="checkbox" name="topings" id="mayonnaise" value="mayo" class="hamburger-input">
+            <label for="mayonnaise">Полить майонезом (20 рублей, 5 калорий)</label><br>
+        </fieldset>
+
+        <div id="check">Собрать бургер</div>
+
+        <p id="result">Итоговая стоимость: <span id="price">0</span> <br>
+            Кол-во калорий: <span id="calories">0</span></p>
+    </fieldset>
+</form>
+<script src="burgerFactory.js"></script>
+<script>
+    window.onload = () => {
+        document.getElementById('check').addEventListener('click', () => {
+            let burger = new Burger('size', 'add', 'topings');
+            console.log(burger);
+            burger.showSum('#price', '#calories');
+        })
+    }
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

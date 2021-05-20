@@ -1,0 +1,41 @@
+[
+         {
+          "date": "13.05.2021",
+          "category": "Education",
+          "price": 123,
+        },
+        {
+          "date": "12.05.2021",
+          "category": "Education",
+          "price": 456,
+        },
+        {
+          "date": "11.05.2021",
+          "category": "Education",
+          "price": 789,
+        },
+        {
+          "date": "10.05.2021",
+          "category": "Education",
+          "price": 2000,
+        }, {
+          "date": "13.05.2021",
+          "category": "Education",
+          "price": 3123,
+        },
+        {
+          "date": "15.03.2021",
+          "category": "Education",
+          "price": 456,
+        },
+        {
+          "date": "17.05.2021",
+          "category": "Education",
+          "price": 789,
+        },
+        {
+          "date": "11.05.2021",
+          "category": "Education",
+          "price": 200,
+        },
+      ]

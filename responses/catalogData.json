@@ -1,12 +1,17 @@
 [
-  {
-    "id_product": 123,
-    "product_name": "Ноутбук",
-    "price": 45600
-  },
-  {
-    "id_product": 456,
-    "product_name": "Мышка",
-    "price": 1000
-  }
+	{
+		"id": 1,
+		"name": "numbers",
+		"placeholder": "Поиск по номеру",
+	},
+	{
+		"id": 2,
+		"name": "stamp",
+		"placeholder": "Поиск по марке",
+	},
+	{
+		"id": 3,
+		"name": "productName",
+		"placeholder": "Поиск по названию товара",
+	},
 ]

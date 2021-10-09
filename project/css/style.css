@@ -1,0 +1,77 @@
+body{
+    font-family: 'SF Pro Display', sans-serif;
+}
+header{
+    display: flex;
+    background-color: #2f2a2d;
+    justify-content: space-between;
+    color: #fafafa;
+    padding: 30px 80px;
+}
+button{
+    outline: none;
+}
+.logo{
+
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.btn-cart{
+    background-color: #fafafa;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    color: #2f2a2d;
+    border-radius: 5px;
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+.btn-cart:hover{
+    background-color: transparent;
+    border-color: #fafafa;
+    color: #fafafa;
+}
+.btn-cart, .logo{
+    align-self: center;
+}
+.products{
+    column-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-rows: 1fr;
+    padding: 40px 80px;
+    justify-content: space-between;
+}
+p {
+    margin: 0 0 5px 0;
+}
+.product-item{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+img {
+    max-width: 100%;
+    height: auto
+}
+.desc {
+    border: 1px solid #c0c0c040;
+    padding: 15px
+}
+.buy-btn{
+    margin-top: 5px;
+    background-color: #2f2a2d;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    color: #fafafa;
+    border-radius: 5px;
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+.buy-btn:hover{
+    background-color: transparent;
+    border-color: #2f2a2d;
+    color: #2f2a2d;
+}

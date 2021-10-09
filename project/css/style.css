@@ -1,26 +1,22 @@
-body {
+body{
     font-family: 'SF Pro Display', sans-serif;
 }
-
-header {
+header{
     display: flex;
     background-color: #2f2a2d;
     justify-content: space-between;
     color: #fafafa;
     padding: 30px 80px;
 }
-
-button {
+button{
     outline: none;
 }
-
-.logo {
+.logo{
 
     text-transform: uppercase;
     font-weight: bold;
 }
-
-.btn-cart {
+.btn-cart{
     background-color: #fafafa;
     padding: 10px 20px;
     border: 1px solid transparent;
@@ -29,18 +25,15 @@ button {
     transition: all ease-in-out .4s;
     cursor: pointer;
 }
-
-.btn-cart:hover {
+.btn-cart:hover{
     background-color: transparent;
     border-color: #fafafa;
     color: #fafafa;
 }
-
-.btn-cart, .logo {
+.btn-cart, .logo{
     align-self: center;
 }
-
-.products {
+.products{
     column-gap: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, 200px);
@@ -48,12 +41,10 @@ button {
     padding: 40px 80px;
     justify-content: space-between;
 }
-
 p {
     margin: 0 0 5px 0;
 }
-
-.product-item {
+.product-item{
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -61,18 +52,15 @@ p {
     overflow: hidden;
     margin: 20px 0;
 }
-
 img {
     max-width: 100%;
     height: auto
 }
-
 .desc {
     border: 1px solid #c0c0c040;
     padding: 15px
 }
-
-.buy-btn {
+.buy-btn{
     margin-top: 5px;
     background-color: #2f2a2d;
     padding: 10px 20px;
@@ -82,8 +70,7 @@ img {
     transition: all ease-in-out .4s;
     cursor: pointer;
 }
-
-.buy-btn:hover {
+.buy-btn:hover{
     background-color: transparent;
     border-color: #2f2a2d;
     color: #2f2a2d;

@@ -75,3 +75,10 @@ img {
     border-color: #2f2a2d;
     color: #2f2a2d;
 }
+
+.basket{
+  width: 300px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}

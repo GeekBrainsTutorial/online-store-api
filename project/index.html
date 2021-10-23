@@ -22,16 +22,19 @@
         </div>
     </header>
     <main>
-        <div class="products">
-            <div class="product-item" v-for="product of filtered">
-                <img :src="imgCatalog" alt="Some img">
-                <div class="desc">
-                    <h3>{{product.product_name}}</h3>
-                    <p>{{product.price}} $</p>
-                    <button class="buy-btn" @click="addProduct(product)">Купить</button>
-                </div>
-            </div>
+        <div>
+              <goods-list :goods="filtered"></goods-list>
         </div>
+<!--        <div class="products">-->
+<!--            <div class="product-item" v-for="product of filtered">-->
+<!--                <img :src="imgCatalog" alt="Some img">-->
+<!--                <div class="desc">-->
+<!--                    <h3>{{product.product_name}}</h3>-->
+<!--                    <p>{{product.price}} $</p>-->
+<!--                    <button class="buy-btn" @click="addProduct(product)">Купить</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
     </main>
 </div>
 <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
@@ -39,6 +42,7 @@
         crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="js/main.js"></script>
+<script src="js/comp.js"></script>
 </body>
 </html>
 

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="858dfe6d-38e3-49c4-bb73-efecc65ad0f5" name="Changes" comment="Компоненты для отображения продуктов готовы">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fruit_shop/public/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fruit_shop/server/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/searchComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_express/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img1/123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img1/124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img1/456.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img1/457.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img1/s123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img1/s124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img1/s456.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img1/s457.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/CartComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/ErrorComp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/FilterComp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/ProductComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/products.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gadgets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gamepad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/keyboard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/laptop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mouse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/comp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="205A3KezWoNYGHtfzd9QECkseqA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\online-store-api\project" />
+      <recent name="D:\online-store-api\project\Фрукты" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\online-store-api\project\fruit_shop\public" />
+      <recent name="D:\online-store-api\project\fruit_shop\server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Fruit.html (1)">
+    <configuration name="Fruit.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project/Фрукты/Fruit.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Fruit.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project/fruit_shop/public/Fruit.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project/public/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Fruit.html (1)" />
+        <item itemvalue="JavaScript Debug.Fruit.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="858dfe6d-38e3-49c4-bb73-efecc65ad0f5" name="Changes" comment="Компоненты для отображения продуктов готовы" />
+      <created>1635323887284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635323887284</updated>
+      <workItem from="1635323889428" duration="11958000" />
+      <workItem from="1635413595569" duration="22000" />
+      <workItem from="1635413646090" duration="111000" />
+      <workItem from="1635413794819" duration="9840000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

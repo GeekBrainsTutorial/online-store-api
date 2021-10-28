@@ -1,0 +1,50 @@
+[
+  {
+    "id_product": 124,
+    "product_name": "watermelon",
+    "product_pic": "\uD83C\uDF49",
+    "price": 300
+  },
+  {
+    "id_product": 125,
+    "product_name": "cherry",
+    "product_pic": "\uD83C\uDF52",
+    "price": 260
+  },
+    {
+    "id_product": 156,
+    "product_name": "strawberry",
+    "product_pic": "\uD83C\uDF53",
+    "price": 300
+  },
+    {
+    "id_product": 147,
+    "product_name": "coconut",
+    "product_pic": "\uD83E\uDD65",
+    "price": 200
+  },
+    {
+    "id_product": 138,
+    "product_name": "peach",
+    "product_pic": "\uD83C\uDF51",
+    "price": 180
+  },
+    {
+    "id_product": 129,
+    "product_name": "mango",
+    "product_pic": "\uD83E\uDD6D",
+    "price": 300
+  },
+    {
+    "id_product": 180,
+    "product_name": "pineapple",
+    "product_pic": "\uD83C\uDF4D",
+    "price": 500
+  },
+    {
+    "id_product": 131,
+    "product_name": "banana",
+    "product_pic": "\uD83C\uDF4C",
+    "price": 150
+  }
+]

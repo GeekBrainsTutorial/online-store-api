@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Fruit shop</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Frijole' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body class="body">
+<div id="app">
+
+    <header>
+        <div class="nav_bar">
+
+            <nav>
+                <ul>
+                    <li><a id="top" href="Fruit.html"> Main page </a></li>
+                    <li><a href="illustrations.html"> Photos </a></li>
+                    <li><a href="slider.html"> Slider </a></li>
+                    <li><a href="practice.html"> Practice </a></li>
+                    <li><a href="contacts.html"> Contacts </a></li>
+                </ul>
+
+            </nav>
+
+
+        </div>
+    </header>
+
+    <img class="card_img" src="imagz/logo.PNG" alt="card">
+
+    <div class="video">
+        <video width="320" height="240" controls>
+            <source src="fruits.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="shopping">
+        <div>
+            <table class="table">
+                <tr>
+                    <th>Fruit</th>
+                    <th>Price ₽</th>
+                    <th>Add / Remove</th>
+                </tr>
+                <tr>
+                    <td>🍉</td>
+                    <td>300</td>
+                    <td>
+                        <button class="add_btn" v-on:click="adding(1)">Add</button>
+                        <button class="rm_btn" v-on:click="removing(1)">Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>🍒</td>
+                    <td>260</td>
+                    <td>
+                        <button class="add_btn" v-on:click="adding(2)">Add</button>
+                        <button class="rm_btn" v-on:click="removing(2)">Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>🍓</td>
+                    <td>300</td>
+                    <td>
+                        <button class="add_btn" v-on:click="adding(3)">Add</button>
+                        <button class="rm_btn" v-on:click="removing(3)">Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>🥥</td>
+                    <td>200</td>
+                    <td>
+                        <button class="add_btn" v-on:click="adding(4)">Add</button>
+                        <button class="rm_btn" v-on:click="removing(4)">Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>🍑</td>
+                    <td>180</td>
+                    <td>
+                         <button class="add_btn" v-on:click="adding(5)">Add</button>
+                        <button class="rm_btn" v-on:click="removing(5)">Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>🥭</td>
+                    <td>300</td>
+                    <td>
+                          <button class="add_btn" v-on:click="adding(6)">Add</button>
+                        <button class="rm_btn" v-on:click="removing(6)">Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>🍍</td>
+                    <td>500</td>
+                    <td>
+                        <button class="add_btn" v-on:click="adding(7)">Add</button>
+                        <button class="rm_btn" v-on:click="removing(7)">Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>🍌</td>
+                    <td>150</td>
+                    <td>
+                        <button class="add_btn" v-on:click="adding(8)">Add</button>
+                        <button class="rm_btn" v-on:click="removing(8)">Remove</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h2 class='current_items'>Your current items:</h2>
+        </div>
+
+        <div>
+            <table class="table_2">
+                <tr>
+                    <th>Basket</th>
+                    <th>Ammount of products</th>
+                    <th>Total cost</th>
+                </tr>
+                <tr>
+                    <td height='20' id='product_table'></td>
+                    <td id='number_of_products'></td>
+                    <td id='basket_table'>₽</td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <button class="check_out_button" v-on:click="check_out"> Check out</button>
+        </div>
+    </div>
+</div>
+<script src="js/checkOut.js"></script>
+<script src="js/basket.js"></script>
+</body>
+
+
+</html>

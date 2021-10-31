@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF 8">
+    <title>Fruit shop</title>
+    <link href='https://fonts.googleapis.com/css?family=Frijole' rel='stylesheet'>
+    <style>
+
+      .nav_bar {
+        width: 100%;
+        margin: 0 auto;
+        font-family: 'Frijole';
+      }
+      header {
+        background: rgb(233, 235, 216)
+       }
+
+      
+       header::after {
+         content:'';
+         display: table;
+         clear: both;
+       }
+
+      nav {
+        float: left;
+      }
+
+      nav ul {
+        margin: 0 auto;
+        padding: 0;
+        list-style-type: none;
+      }
+
+      nav li {
+        display: inline-block;
+        margin: 0 50px;
+        padding-top: 10px;
+      }
+
+      nav a {
+        color:teal;
+      }
+
+      .body {
+        width: 90%;
+        position:fixed;
+        background-color: yellowgreen;
+      }
+
+      .galleryWrapper__screen {
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #222;
+        opacity: 0.8;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        display: block;
+        text-align: center;
+      }
+
+      .galleryWrapper__image {
+        max-height: 80%;
+        max-width: 80%;
+        z-index: 101;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+      }
+
+      .galleryWrapper__close {
+        z-index: 101;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+      .galleryPreviewsContainer {
+        padding: 10px;
+      }
+
+    </style>
+  </head>
+
+  <body class="body">
+
+    <header>
+      <div class="nav_bar">
+  
+        <nav>
+        <ul>
+          <li><a id="top" href="Fruit.html" alt="front_page"> Main page </a></li>
+          <li><a href="illustrations.html" alt="illustrations"> Photos </a></li>
+          <li><a href="slider.html" alt="slider"> Slider </a></li>
+          <li><a href="practice.html" alt="contacts"> Practice </a></li>
+          <li><a href="contacts.html" alt="contacts"> Contacts </a></li>
+        </ul>
+          
+        </ul>
+      </nav>
+
+
+      </div>
+    </header>
+
+    <div class="galleryPreviewsContainer">
+      <img src="imagz/min_images/1.PNG" data-full_image_url="imagz/full_images/1.PNG" alt="pic 1">
+      <img src="imagz/min_images/2.PNG" data-full_image_url="imagz/full_images/2.PNG" alt="pic 2">
+      <img src="imagz/min_images/3.PNG" data-full_image_url="imagz/full_images/3.PNG" alt="pic 3">
+      <img src="imagz/min_images/4.PNG" data-full_image_url="imagz/full_images/4.PNG" alt="pic 4">
+    </div>
+
+    <!-- <div class="galleryWrapper">
+    <div class="galleryWrapper__screen"></div>
+    <img class="galleryWrapper__close" src="imagz/close.png" alt="">
+    <img class="galleryWrapper__image" src="imagz/full_images/1.jpg" alt="">
+</div> -->
+
+    <script src="gallery.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF 8">
+    <title>Fruit shop</title>
+    <link href='https://fonts.googleapis.com/css?family=Frijole' rel='stylesheet'>
+    <style>
+
+      .nav_bar {
+        width: 100%;
+        margin: 0 auto;
+        font-family: 'Frijole';
+      }
+    
+    header {
+        background: rgb(233, 235, 216)
+    }
+
+    header::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    nav {
+      float: left;
+    }
+
+    nav ul {
+      margin: 0 auto;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 50px;
+      padding-top: 10px;
+    }
+
+    nav a {
+        color:teal;
+      }
+
+    .body {
+        width: 90%;
+        position: fixed;
+        background-color: yellowgreen;
+      }
+
+            section {
+                display: flex;
+                justify-content: center;
+            }
+            section {
+                height: 300px;
+            }
+            section img {
+                display: block;
+                height: 300px;
+            }
+                
+            #nav_2 {
+                width: 50%;
+                margin: 30px auto auto;
+                display: flex;
+                position: relative;
+                left: 530px;
+            }
+            #nav_2 div {
+                width: 20pt;
+                height: 20pt;
+                font-size: 20pt;
+                line-height: 20pt;
+                text-align: center;
+                margin: auto 10px;
+                border: thin solid grey;
+                color: black;
+                background-color: white;
+                cursor: pointer;
+            }
+            #nav_2 div.active {
+                color: white;
+                background-color: black;
+                cursor: auto;
+            }
+
+    </style>
+
+  <body class="body">
+
+    <header>
+      <div class="nav_bar">
+  
+        <nav>
+        <ul>
+            <li><a id="top" href="Fruit.html" alt="front_page"> Main page </a></li>
+            <li><a href="illustrations.html" alt="illustrations"> Photos </a></li>
+            <li><a href="slider.html" alt="slider"> Slider </a></li>
+            <li><a href="practice.html" alt="contacts"> Practice </a></li>
+            <li><a href="contacts.html" alt="contacts"> Contacts </a></li>
+          </ul>
+        </ul>
+      </nav>
+
+ 
+
+      </div>
+    </header>
+
+<section>
+    <img id="output" src="imagz/1.PNG">
+</section>
+<nav id="nav_2">
+    <div id="1" class="active">1</div>
+    <div id="2">2</div>
+    <div id="3">3</div>
+</nav>
+    </body>
+
+
+<script type="text/javascript">
+    const output = window.document.getElementById('output');
+    const buttons = window.document.querySelectorAll('nav div');
+    let current = buttons[0];
+
+    function showImage() {
+        current = this;
+        output.src = 'imagz/' + this.id + '.PNG';
+        buttons.forEach((el) => {
+            if (el == this)
+                el.className = 'active';
+            else 
+                el.className = '';
+        });
+    }
+
+    buttons.forEach(
+        (el) => {
+            el.addEventListener('click', showImage);
+        }
+    );
+
+</script>
+</html>

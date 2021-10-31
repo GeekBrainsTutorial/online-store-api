@@ -1,0 +1,273 @@
+
+header {
+    background: rgb(233, 235, 216)
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav_bar {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Frijole';
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 50px;
+    padding-top: 10px;
+}
+
+nav a {
+    color: teal;
+}
+
+/*.title {*/
+/*    font-size: 24px;*/
+/*    font-family: cursive;*/
+/*    position: relative;*/
+/*    top: 0;*/
+/*    left: -500px;*/
+/*}*/
+
+.table {
+    position: relative;
+    top: -150px;
+    left: 490px;
+}
+
+th,
+td {
+    border: 3px solid;
+    border-color: rgb(212, 237, 100);
+    border-collapse: collapse;
+}
+
+.table_2 {
+    position: relative;
+    top: -75px;
+    left: 470px;
+}
+
+.current_items {
+    position: relative;
+    top: -445px;
+    left: 775px;
+}
+
+.card_img {
+    position: relative;
+    padding: 10px;
+    width: 250px;
+    height: 175px;
+    top: 50px;
+    left: 0;
+}
+
+.check_out_button {
+    background-color: #4CAF50;
+    border: solid;
+    border-color: coral;
+    color: white;
+    padding: 10px 48px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    top: -230px;
+    left: 500px;
+}
+
+.check_out_button:hover {
+    background-color: #829183
+}
+
+.check_out_button:active {
+    background-color: #8cdf92;
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+
+.video {
+    position: relative;
+    top: 100px;
+    left: 0;
+}
+
+.body {
+    width: 90%;
+    position: fixed;
+    background-color: yellowgreen;
+}
+
+
+.shopping {
+    position: relative;
+    top: -225px;
+    left: 100px;
+}
+
+.add_btn {
+    border: 1px solid black;
+    width: 67px;
+    background-color: seagreen;
+}
+
+.add_btn:hover {
+    background-color: #3e8e41
+}
+
+.add_btn:active {
+    background-color: #2e3f2f;
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+
+.rm_btn {
+    border: 1px solid black;
+    width: 67px;
+    background-color: seagreen;
+}
+
+.rm_btn:hover {
+    background-color: #3e8e41
+}
+
+.rm_btn:active {
+    background-color: #2e3f2f;
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+
+
+/*.container {*/
+/*    width: 80%;*/
+/*    margin: 0 auto;*/
+/*  }*/
+
+/*  .title {*/
+/*    font-size: 24px;*/
+/*    font-family:cursive;*/
+/*    position: relative;*/
+/*    top: 0;*/
+/*    left: -500px;*/
+/*  }*/
+/*  .table {*/
+/*    position: relative;*/
+/*    top: -300px;*/
+/*    left: 490px;*/
+/*  }*/
+/*  th,*/
+/*  td {*/
+/*    border: 3px solid;*/
+/*    border-color: rgb(212, 237, 100);*/
+/*    border-collapse: collapse; */
+/*  }*/
+
+/*   .table_2 {*/
+/*    position: relative;*/
+/*    top: -140px;*/
+/*    left: 470px;*/
+/*   }*/
+
+/*   .current_items{*/
+/*    position: relative;*/
+/*    top: -280px;*/
+/*    left: 490px;*/
+/*   }*/
+/*   */
+/*  .check_out_button {*/
+/*    background-color: #4CAF50;*/
+/*    border: solid;*/
+/*    border-color: coral;*/
+/*    color: white;*/
+/*    padding: 10px 48px;*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    font-size: 16px;*/
+/*    position: relative;*/
+/*    top: -270px;*/
+/*    left: 500px;*/
+/*  }*/
+
+/*  .check_out_button:hover {background-color: #829183}*/
+
+/*   .check_out_button:active {*/
+/*    background-color: #8cdf92;*/
+/*    box-shadow: 0 1px #666;*/
+/*    transform: translateY(1px);*/
+/*  }*/
+
+/*  .video {*/
+/*    position: relative;*/
+/*    top: -375px;*/
+/*    left: 0px;*/
+/*  }*/
+
+/*  .body {*/
+/*    position:fixed;*/
+/*    background-color: rgb(255, 187, 0)*/
+/*  }*/
+/*  */
+/*   .adding {*/
+/*    border: 1px solid black ;*/
+/*    width: 138px;*/
+/*    background-color: seagreen;*/
+/*   }*/
+
+/*   .adding:hover {background-color: #3e8e41}*/
+
+/*   .adding:active {*/
+/*    background-color: #2e3f2f;*/
+/*    box-shadow: 0 1px #666;*/
+/*    transform: translateY(1px);*/
+/*  }*/
+
+/*  nav {*/
+/*    float: right;*/
+/*    justify-content: space-evenly;*/
+/*  }*/
+
+/*  nav li {*/
+/*    float: left;*/
+/*  }*/
+
+/*  nav ul {*/
+/*    list-style: none;*/
+/*  }*/
+
+/*  .logo {*/
+/*    float: left;*/
+/*  }*/
+/*  */
+/*  */
+/*  */
+
+
+/* .button {
+  background-color: #4CAF50;
+  border: solid;
+  border-color: coral;
+  color: white;
+  padding: 10px 48px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  top: -600px;
+  left: 550px;
+} */
+

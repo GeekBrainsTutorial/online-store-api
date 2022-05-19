@@ -1,0 +1,29 @@
+/* Стили main */
+main {
+    .container {
+        padding: 32px;
+    }
+
+    .goodsList {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 16px;
+    }
+
+    .goodsItem {
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 16px;
+        text-align: right;
+
+        img {
+            max-width: 100%;
+        }
+
+        img,
+        h3,
+        p{
+            padding-bottom: 4px;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Убираем отступы */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.cartButton,
+.cartButtonAdd {
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+/* Стили header */
+header .container {
+  border: 1px solid black;
+  padding: 8px 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header__cartButton {
+  margin-left: auto;
+}
+
+/* Стили main */
+main .container {
+  padding: 32px;
+}
+
+main .goodsList {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+}
+
+main .goodsItem {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: right;
+}
+
+main .goodsItem img {
+  max-width: 100%;
+}
+
+main .goodsItem img,
+main .goodsItem h3,
+main .goodsItem p {
+  padding-bottom: 4px;
+}
+/*# sourceMappingURL=style.css.map */
